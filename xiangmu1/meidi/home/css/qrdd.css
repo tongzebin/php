@@ -1,0 +1,210 @@
+/*预定义样式开始*/
+*{
+	margin:0px;
+	padding:0px;
+}
+.st_max img{
+	transition:margin 0.3s;
+}
+.mt10{
+	margin-top:10px;
+}
+.ml30{
+	margin-left:30px;
+}
+a{
+	text-decoration:none;
+}
+ul li{
+	list-style:none;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+/*预定义样式结束*/
+
+#max{											/*最大的盒子*/
+	width:100%;									
+	
+	/*border: 1px solid red;*/
+
+}
+
+/*头部样式*/
+
+/*头1开始*/
+
+.tou1{											/*导航条1*/
+	width:100%;
+	height:45px;
+	/*border: 1px solid red;*/
+	background:#0092D8;
+}
+.tou1_l{
+	width:120px;
+	height:100%;
+	/*border: 1px solid red;*/
+}
+.tou1_l img{
+	width:100%;
+	height:45px;
+}
+.tou1_c{
+	width:50%;
+	height:100%;
+	/*border: 1px solid red;*/
+	
+}
+.tou1_c ul li{
+	float:left;
+	padding:0 30px;
+	line-height:45px;
+}
+.tou1_c a{
+	color:#63BFF0;
+	font-size:13px;
+}
+.tou1_c a:hover{
+	color:#fff;
+}
+.tou1_r{
+	width:285px;
+	height:45px;
+	/*border: 1px solid red;*/
+}
+.tou1_r_1{
+	width:65px;
+	height:45px;
+	/*border: 1px solid red;*/
+}
+
+.tou1_r_4{
+	width:88px;
+	height:45px;
+	/*border: 1px solid red;*/
+}
+
+
+.tou1_r_1:hover{
+	background:#005F8E;
+}
+.tou1_r_4:hover{
+	background:#005F8E;
+}
+.tou1_r_4 span{
+	display:block;
+	margin:15px 0px 0px 28px;
+}
+.gwctc{											/*购物车弹窗*/
+	width:360px;
+	height:80px;
+	border: 1px solid #ccc;
+	position:absolute;
+	top:45px;
+	left:898px;
+	background:#fff;
+	display:none;
+}
+.gwctc span{
+	display:block;
+	margin-left:95px;
+	line-height:80px;
+	font-size:14px;
+}
+.tc3:hover .gwctc{
+	display:block;
+}
+.sjtc{												/*二维码弹窗*/
+	width:367px;
+	height:253px;
+	border: 1px solid #ccc;					
+	position:absolute;
+	top:45px;
+	left:825px;
+	display:none;
+}
+.tc2:hover .sjtc{
+	display:block;
+}
+.dltc{												/*登录弹窗*/
+	width:250px;
+	height:233px;
+	border: 1px solid #ddd;
+	position:absolute;
+	top:45px;
+	left:1097px;
+	display:none;
+	background:#fff;
+}
+.tou1_r_4:hover .dltc{
+	display:block;
+}
+.dltc ul li{
+	width:230px;
+	height:38px;
+	border-bottom: 1px solid #ccc;
+	font-size:14px;
+	line-height:38px;
+	padding-left:25px;
+}
+.dw:hover{
+	background:#aaa;
+}
+.bs1:hover .bs2{
+	color:#000;
+	background:#eee;
+}
+
+.sstb{
+	display:block;
+	width:25px;
+	height:25px;
+	position:absolute;
+	top:12px;
+	left:1085px;
+}
+.sstc{
+	width:225px;
+	height:44px;
+	/*border:1px solid red;*/
+	position:absolute;
+	top:-2px;
+	left:845px;
+}
+.sstc input{
+	
+	width:220px;
+	height:43px;
+}
+.tou1_r_1 .ssss{
+	display:block;
+	width:25px;
+	height:44px;
+	background:red;
+}
+
+
+
+/*头1结束*/
+
+/*头2开始*/
+
+.tou2{
+	width:100%;
+	height:25px;
+	/*border:1px solid red;*/
+	background:#003B66;
+	color:#fff;
+	letter-spacing:2px;
+}
+.tou2 marquee{
+	font-size:14px;
+	line-height:25px;
+	text-align:center;
+	
+}
+
+/*头2结束*/

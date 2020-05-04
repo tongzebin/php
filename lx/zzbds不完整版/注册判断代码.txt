@@ -1,0 +1,27 @@
+if($pd==2){
+		$sj=rtrim(file_get_contents('./sjk.txt'),'@');	
+		$arr=explode('@',$sj);											//转换数组
+		if(preg_match($zhpd,$user)){									//判断账号格式是否正确
+			if($pwd==$qrpwd){											//判断输入的两次密码是否一致
+				foreach($arr as $v){
+				$arr2=explode('#',$v);
+					if(($user=="{$arr2[0]}")){							//判断是否存在相同的账号
+						//跳转回form页(重定向)
+						header("location:zhuce.php?error=1");			//返回账号已注册
+						die();
+					}
+				}
+				if(preg_match($mmpd,$pwd)){								//判断密码格式是否正确
+					echo "注册成功<a href=\"form.php\">去登陆</a>";
+					$str=$user.'#'.$pwd."@";							//拼接账号密码
+					file_put_contents('./sjk.txt',$str,FILE_APPEND);	//将账号密码存在数据库中
+				}else{
+					header("location:zhuce.php?error=2");				//返回密码格式不正确
+				}
+			}else{
+				header("location:zhuce.php?error=4");					//返回密码不一致
+			}
+		}else{
+			header("location:zhuce.php?error=0");						//返回账号格式不正确
+		}
+	}

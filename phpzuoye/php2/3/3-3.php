@@ -1,0 +1,10 @@
+<?php
+	$float=1.2;
+	var_dump($float);
+	$float=3.14;
+	var_dump($float);
+	$float=3e4;
+	var_dump($float);
+	$float=3.14e-4;
+	var_dump($float);
+?>

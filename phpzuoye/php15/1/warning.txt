@@ -1,0 +1,4 @@
+当前错误号:2
+ 当前错误内容是Missing argument 1 for fun(), called in D:\wamp64\www\php44\phpzuoye\php15\1\1-2.php on line 29 and defined
+当前错误文件是:D:\wamp64\www\php44\phpzuoye\php15\1\1-2.php
+当前错误行号是:26

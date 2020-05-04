@@ -1,0 +1,1 @@
+错误号2错误内容Missing argument 1 for fun(), called in D:\wamp64\www\php44\phpzuoye\php15\2\2-2.php on line 20 and defined错误文件D:\wamp64\www\php44\phpzuoye\php15\2\2-2.php错误行号17

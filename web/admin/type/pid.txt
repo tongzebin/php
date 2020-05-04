@@ -1,0 +1,28 @@
+$id=$_GET['id'];
+			function del($id){
+				//连接数据库
+				$oldid=$id;
+				$link=mysqli_connect('127.0.0.1','root','101330','tzb') or die("数据库连接失败");
+				mysqli_set_charset($link,"utf8");
+				$sql='select * from sp';
+				$fs=mysqli_query($link,$sql);
+				while($q=mysqli_fetch_assoc($fs)){
+					$nid=$q['id'];
+					$pid=$q['pid'];
+					//判断是否存在子分类
+					if($pid==$id){
+						//如果存在子分类,查询子分类下是否有子分类
+						$id=$pid;
+						//
+						del($id);
+						$sql="delete from sp where id={$id}";
+						mysqli_query($link,$sql);
+					}
+				}
+				$sql="delete from sp where id={$oldid}";
+				mysqli_query($link,$sql);
+				return '删除成功';
+			}
+			//调用函数
+			echo del($id);
+		}

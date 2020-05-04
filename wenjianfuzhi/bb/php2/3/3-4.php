@@ -1,0 +1,13 @@
+<?php
+	$str='kzjns';
+	$str2='么么哒';
+	var_dump($str);
+	var_dump($str2);
+	$str3=<<<EOF
+	alik
+	sakj
+	aslllalsm
+	asdioajhj
+EOF;
+	var_dump($str3);
+?>

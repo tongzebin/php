@@ -1,0 +1,10 @@
+<?php
+	$int=12;
+	var_dump($int);
+	$int=021;
+	var_dump($int);
+	$int=0x12;
+	var_dump($int);
+	$int=0b101010;
+	var_dump($int);
+?>

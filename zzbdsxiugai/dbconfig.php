@@ -1,0 +1,9 @@
+<?php
+	//主机
+	define("HOST","192.11114gkhj");
+	//数据库的用户名
+	define("USER","");
+	//数据库的密码
+	define("PASS","admjkgj");
+	//数据库名
+	define("DBNAME","phk;ji546");

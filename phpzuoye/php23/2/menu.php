@@ -1,0 +1,1 @@
+﻿<a href="show.php">查看信息</a><a href="add.php">添加信息</a>

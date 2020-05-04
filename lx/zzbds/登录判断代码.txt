@@ -1,0 +1,20 @@
+if($pd==1){
+		if(preg_match($zhpd,$user)){									//判断账号格式
+			if($pwd==$qrpwd){											//判断密码是否一致
+				$sj=rtrim(file_get_contents('./sjk.txt'),'@');			
+				$arr=explode('@',$sj);													
+				foreach($arr as $v){									
+				$arr2=explode('#',$v);
+					if(($user=="{$arr2[0]}"&&$pwd=="{$arr2[0]}")){							
+						echo '登陆成功';			
+						die();
+					}
+				}
+				echo "你还未注册前去<a href=\"zhuce.php\">注册</a>";
+			}else{
+				header("location:form.php?error=4");
+			}
+		}else{
+			header("location:form.php?error=0");
+		}
+	}

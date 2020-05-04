@@ -1,0 +1,10 @@
+<?php
+
+<<<
+	ASJKAHGA
+	ASDKJAHSDJ
+	
+	
+	
+	ASKDJH
+EOF;

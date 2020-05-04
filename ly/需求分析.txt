@@ -1,0 +1,9 @@
+
+文本式留言板
+	index.php   添加留言的表单信息
+	doAdd.php   执行浏览添加
+	ly.db       存储留言信息
+	show.php    显示留言信息
+	menu.php    公共导航
+	doDel.php	执行删除
+	

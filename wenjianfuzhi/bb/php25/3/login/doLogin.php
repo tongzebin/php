@@ -1,0 +1,9 @@
+<?php
+    $name=$_POST['name'];
+    $pwd=$_POST['pwd'];
+    if($name=='aaa'&&$pwd=='123456'){
+        setcookie('name',$name,time()+1440,'/');
+        header('location:index.php');
+    }else{
+        header('location:login.php?error=1');
+    }
