@@ -1,4 +1,0 @@
-当前错误号:8
- 当前错误内容是Undefined variable: name
-当前错误文件是:D:\wamp64\www\php44\phpzuoye\php15\1\1-2.php
-当前错误行号是:30

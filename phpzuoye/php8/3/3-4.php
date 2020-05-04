@@ -1,7 +1,0 @@
-<?php
-	function qq(){
-		for($i=1;$i<=100;$i++){
-			echo $i.' ';
-		}
-	}
-	qq();

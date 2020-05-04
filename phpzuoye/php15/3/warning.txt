@@ -1,1 +1,0 @@
-错误号8错误内容Undefined variable: name错误文件D:\wamp64\www\php44\phpzuoye\php15\3\3-2.php错误行14
